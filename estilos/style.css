@@ -14,11 +14,9 @@
 
 @font-face {
   font-family: 'Comet';
-  src: url('../fontes/Little Comet Bubling Demo Version.otf');
+  src: url('../fontes/Little Comet Bubling Demo Version.otf') format('opentype');
   font-weight: normal;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Passion One', cursive; */
 
 :root {
   --fontePoetica: 'Poetica', cursive;
