@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Passion+One:wght@700&display=swap');
 
 @font-face {
-  font-family:'Poetica';
-  src: url('../fontes/Fall in Love.ttf') format('truetype');
+  font-family: 'Pato';
+  src: url('../fontes/DUCKO DEMO.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Pato';
-  src: url('../fontes/DUCKO DEMO.ttf') format('truetype');
+  font-family:'Poetica';
+  src: url('../fontes/Fall in Love.ttf') format('truetype');
   font-weight: normal;
 }
 
@@ -20,10 +20,9 @@
 
 :root {
   --fontePoetica: 'Poetica', cursive;
-  --fonteTitulo: 'Passion One', cursive;
+  --fonteTitulo: 'Comet', cursive;
   --fontePato: 'Pato', 'Open Sans', sans-serif;
   --fontePadrao: 'Open Sans', sans-serif;
-  --fonteTeste: 'Comet', cursive;
   --Main: #FCA311;
   --Sub: #14213D;
   --Arround: #E5E5E5;
@@ -51,7 +50,7 @@ header {
 }
 
 header h1 {
-  font: small-caps normal 12vw var(--fonteTeste);
+  font: small-caps normal 12vw var(--fonteTitulo);
   
 }
 
@@ -71,8 +70,8 @@ header a:hover {
 
 section {
   padding: 10vh 0;
-  padding-left: 30px;
-  font: 4.3vw  var(--fontePoetica);
+  padding-left: 5%;
+  font: 4.2vw  var(--fontePoetica);
   line-height: 2em;
 }
 
@@ -88,6 +87,10 @@ section p {
 #img2 {
   background: url('../imagens/background002.jpg') right center no-repeat fixed;
   background-size: cover;
+}
+
+.direita {
+  margin-left: 50%;
 }
 
 .background {
