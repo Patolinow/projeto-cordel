@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Passion+One:wght@700&display=swap');
+
+@font-face {
+  font-family:'Poetica';
+  src: url('../fontes/Fall in Love.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Pato';
+  src: url('../fontes/DUCKO DEMO.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Comet';
+  src: url('../fontes/Little Comet Bubling Demo Version.otf');
+  font-weight: normal;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Passion One', cursive; */
+
+:root {
+  --fontePoetica: 'Poetica', cursive;
+  --fonteTitulo: 'Passion One', cursive;
+  --fontePato: 'Pato', 'Open Sans', sans-serif;
+  --fontePadrao: 'Open Sans', sans-serif;
+  --fonteTeste: 'Comet', cursive;
+  --Main: #FCA311;
+  --Sub: #14213D;
+  --Arround: #E5E5E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontePadrao);
+  background-color: var(--Arround);
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--Sub);
+  color: var(--Main);
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font: small-caps normal 12vw var(--fonteTeste);
+  
+}
+
+header p {
+  font-size: 1.2em;
+  
+}
+
+header a {
+  color: var(--Main);
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 10vh 0;
+  padding-left: 30px;
+  font: 4.3vw  var(--fontePoetica);
+  line-height: 2em;
+}
+
+section p {
+  padding-bottom: 2em;
+}
+
+#img1 {
+  background: url('../imagens/background001.jpg') center no-repeat fixed;
+  background-size: cover;
+}
+
+#img2 {
+  background: url('../imagens/background002.jpg') right center no-repeat fixed;
+  background-size: cover;
+}
+
+.background {
+  color: var(--Arround);
+  background-color: rgb(43, 43, 43);
+  text-shadow: 1px 1px 1px black;
+  box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.623);
+}
+
+.background p {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer {
+  background-color: var(--Sub);
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+footer a {
+  color: var(--Main);
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--Arround);
+  transition: 300ms;
+}
+
+#pato {
+  font-family: var(--fontePato);
+  font-weight: normal;
+}
