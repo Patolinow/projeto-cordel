@@ -7,19 +7,19 @@
 }
 
 @font-face {
-  font-family:'Poetica';
-  src: url('../fontes/Fall in Love.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
   font-family: 'Comet';
   src: url('../fontes/Little Comet Bubling Demo Version.otf') format('opentype');
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Poesia';
+  src: url('../fontes/Fall in love.ttf') format('opentype');
+  font-weight: normal;
+}
+
 :root {
-  --fontePoetica: 'Poetica', cursive;
+  --fontePrincipal: 'Poesia', cursive;
   --fonteTitulo: 'Comet', cursive;
   --fontePato: 'Pato', 'Open Sans', sans-serif;
   --fontePadrao: 'Open Sans', sans-serif;
@@ -71,7 +71,8 @@ header a:hover {
 section {
   padding: 10vh 0;
   padding-left: 5%;
-  font: 4.2vw  var(--fontePoetica);
+  font-family: var(--fontePrincipal);
+  font-size: 4.2vw;
   line-height: 2em;
 }
 
